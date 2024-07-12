@@ -1,0 +1,17 @@
+/* styles.css (or your preferred CSS file) */
+.timer-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    border-color: white;
+}
+
+.timer-value {
+    font-size: 20px;
+    color: white;
+    background-color: #464646;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border-color: white;
+}

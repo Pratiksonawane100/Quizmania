@@ -1,0 +1,63 @@
+/* FinishScreen.css */
+
+.finish-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1e1e1e;
+    /* Dark background */
+    color: #ffffff;
+    /* White text */
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    /* Set a maximum width */
+    margin: 20px auto;
+    /* Center the component */
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
+}
+
+.finish-screen p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    /* Slightly larger font size */
+    text-align: center;
+    /* Center text */
+}
+
+.finish-screen strong {
+    color: #4caf50;
+    /* Green text for strong elements */
+}
+
+span {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    color: #f9f9f9;
+    /* Yellow text */
+}
+
+.re {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #ffffff;
+    background-color: #4caf50;
+    /* Green button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.re:hover {
+    background-color: #45a049;
+    /* Darker green on hover */
+}

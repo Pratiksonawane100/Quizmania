@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "question": "Which of the following is a NoSQL database?",
+      "options": ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
+      "answer": 2,
+      "points": 10
+    },
+    {
+      "question": "What does HTTP stand for?",
+      "options": [
+        "HyperText Transfer Protocol",
+        "HyperText Transmission Protocol",
+        "HighText Transfer Protocol",
+        "HyperTransfer Text Protocol"
+      ],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "Which HTML element is used to define an unordered list?",
+      "options": ["<ul>", "<ol>", "<li>", "<list>"],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the correct syntax to create a function in Python?",
+      "options": [
+        "def myFunction():",
+        "function myFunction()",
+        "create myFunction():",
+        "myFunction() => {}"
+      ],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "Which company developed the TypeScript programming language?",
+      "options": ["Microsoft", "Google", "Facebook", "IBM"],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "Which of the following is a frontend framework?",
+      "options": ["Express", "Angular", "Django", "Flask"],
+      "answer": 1,
+      "points": 10
+    },
+    {
+      "question": "Which JavaScript method is used to fetch data from an API?",
+      "options": ["fetch()", "get()", "request()", "retrieve()"],
+      "answer": 0,
+      "points": 10
+    },
+    {
+      "question": "What is the default port number for HTTPS?",
+      "options": ["21", "80", "443", "8080"],
+      "answer": 2,
+      "points": 10
+    },
+    {
+      "question": "Which SQL statement is used to update data in a database?",
+      "options": ["MODIFY", "CHANGE", "UPDATE", "ALTER"],
+      "answer": 2,
+      "points": 10
+    },
+    {
+      "question": "Which language is primarily used for mobile app development on Android?",
+      "options": ["Swift", "Kotlin", "JavaScript", "C#"],
+      "answer": 1,
+      "points": 10
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+/* Progress.css */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #1e1e1e; */
+    /* Dark background */
+    color: #ffffff;
+    /* White text */
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    width: 60%;
+    max-width: 800px;
+    /* Set a maximum width */
+    margin: 20px auto;
+    /* Center the component */
+    box-sizing: border-box;
+    /* Include padding in the element's total width and height */
+}
+
+header div {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+progress {
+    width: 100%;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #2d2d2d;
+}
+
+progress::-webkit-progress-value {
+    background-color: #4caf50;
+    /* Green progress */
+}
+
+progress::-moz-progress-bar {
+    background-color: #4caf50;
+}
+
+.score {
+    display: flex;
+    justify-content: space-between;
+    /* Align score elements at the ends */
+    width: 100%;
+}
+
+p {
+    margin: 5px 0;
+}
+
+strong {
+    color: #4caf50;
+    /* Green text for strong elements */
+}
